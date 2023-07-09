@@ -1,0 +1,93 @@
+a {
+  text-decoration: none;
+}
+footer {
+  position: relative;
+  left: 170px;
+  bottom: 35px;
+}
+form {
+  margin: 0 auto;
+  position: relative;
+  right: 20px;
+  top: 6px;
+}
+ul {
+  list-style: none;
+  color: rgb(90, 92, 92);
+  font-size: 17px;
+  padding-left: 0;
+  margin: 0;
+}
+.btn {
+  margin: 0 auto;
+  border-radius: 10px;
+  color: #6c63ff;
+}
+.btn:hover {
+  transition: fill 0.3s;
+}
+.card {
+  width: 100;
+}
+.card:hover {
+  background-color: inherit;
+}
+.condition {
+  text-transform: capitalize;
+}
+.container {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.current-temperature {
+  font-weight: 550;
+}
+.fa-location-crosshairs {
+  width: 200;
+}
+.maximum-temp {
+  font-weight: bold;
+}
+.minimum-temp {
+  opacity: 0.8;
+  font-size: smaller;
+}
+.research {
+  border: 1px solid #FF00FF;
+  border-radius: 5px;
+}
+.cute-button {
+  color: #000080;
+  border: 1px solid #00FFFF;
+  border-radius: 5px;
+}
+.research:hover {
+  transition: fill 0.3s;
+  cursor: pointer;
+  background-color: #ff80c0;
+}
+.temperature {
+  font-size: 15px;
+  text-align: center;
+}
+.aura-app {
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dae1dd;
+  border-radius: 5px;
+  background: linear-gradient(to top left, rgb(247, 206, 255), rgb(253, 255, 252));
+  width: 800px;
+}
+.weather-icon {
+  display: block;
+  margin: 0 auto;
+}
+.weather-temperature .active {
+  color: #008080;
+  cursor: default;
+}
+.weekdays {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
